@@ -1,5 +1,5 @@
 import random
-def willekeurignummer(): #Making function
+def randomnumber(): #Making function
     print('Give me 2 numbers, a minimum and a max to generate a random number') #Intro message
     x = int(input("Enter a minimum: ")) #User inputs a minimum
     y = int(input("Enter a maximum: ")) #User inputs a maximum
@@ -9,6 +9,6 @@ def willekeurignummer(): #Making function
      print(random.randint(x, y)) #Printing random number
      b +=1 #adding 1 to b
 
-willekeurignummer() #Using Function
+randomnumber() #Using Function
 
 
