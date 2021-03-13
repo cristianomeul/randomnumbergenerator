@@ -10,5 +10,3 @@ def randomnumber(): #Making function
      b +=1 #adding 1 to b
 
 randomnumber() #Using Function
-
-
